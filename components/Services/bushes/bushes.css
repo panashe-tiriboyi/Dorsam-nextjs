@@ -1,0 +1,4 @@
+.contained-modal-title-vcenter {
+  z-index: 1040 !important;
+  position: "fixed";
+}

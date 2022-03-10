@@ -1,0 +1,22 @@
+.heading {
+  font-size: 50px;
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 8vw;
+  }
+}
+
+.picture {
+  width: 80%;
+  height: 300px;
+  border-radius: 21px 21px 0 0;
+}
+
+.list {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+}

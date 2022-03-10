@@ -1,0 +1,21 @@
+.contained-modal-title-vcenter {
+  z-index: 1040 !important;
+  position: "fixed";
+}
+
+.repairCard {
+  border-color: rgba(10, 5, 80, 0.3);
+  border-width: 5px;
+  width: 100%;
+  height: 80%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 24px;
+}
+.Contentname {
+  font-size: 3vw;
+  text-align: center;
+  vertical-align: bottom;
+  font-weight: 100;
+}
