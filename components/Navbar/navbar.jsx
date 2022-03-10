@@ -20,8 +20,20 @@ const Navigation = () => {
       }}
     >
       <Container>
-        <Navbar.Brand className="Brand" href="#home">
-          <Image src="/logo.svg" layout="fill" alt="" /> Dorsam Automotive
+        <Navbar.Brand
+          className="Brand"
+          style={{ display: "block" }}
+          href="#home"
+        >
+          {" "}
+          <Image
+            src="/logo.svg"
+            width="10"
+            height="5"
+            layout="responsive"
+            alt=""
+          />
+          <p>Dorsam Automotive</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{ margin: "15px" }}>
